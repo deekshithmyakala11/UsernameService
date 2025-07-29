@@ -1,5 +1,4 @@
 # Username Microservice (.NET 8 + SQLite)
-
 This microservice validates and stores usernames uniquely per account.
 
 ## Tech Stack
@@ -14,13 +13,12 @@ This microservice validates and stores usernames uniquely per account.
 - One username per account (enforced via DB + logic)
 
 ## How to Run the Project
-
 1. Clone the repository
 2. Open the solution in **Visual Studio 2022**
 3. Make sure you have **.NET 8 SDK** installed
 4. Open **Package Manager Console** and run:
 
-```powershell
+powershell:
 Add-Migration Init
 Update-Database
 
